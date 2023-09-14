@@ -1,0 +1,45 @@
+
+
+ /* html, body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	font-family: ; 
+	letter-spacing: -0.5px;
+	background-color:black;
+	 color: white; 
+}  */
+
+/* .dark {
+	background-color: black;
+} */
+
+#root{
+	min-height: 100vh;
+}
+
+.App{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container{
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+
+.content-list {
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+}
+
+.title-2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+}
