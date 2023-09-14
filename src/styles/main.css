@@ -11,8 +11,50 @@
 	 color: white; 
 }  */
 
-/* .dark {
-	background-color: black;
+html .dark {
+	--buttton-text-color: #ffffff;
+	--button-background-color: #4e005c;
+    --button-border-color: #ba8fca;
+
+	--input-text-color: #ffffff;
+	--input-placeholer-text-color: #ddd;
+	--input-background-color: #7c7c7c;
+	--input-border-color: #ba8fca;
+
+	--background-color: #292929;
+	--icon-color: #7fff00;
+	--link-color: #7fff00;
+
+}
+
+
+/* html [data-theme="dark"] {
+	--buttton-text-color: #ffffff;
+	--button-background-color: #4e005c;
+    --button-border-color: #ba8fca;
+
+	--input-text-color: #ffffff;
+	--input-placeholer-text-color: #ddd;
+	--input-background-color: #7c7c7c;
+	--input-border-color: #ba8fca;
+
+	--background-color: #292929;
+	--icon-color: #ba8fc2;
+} */
+
+/* html [data-theme="light"] { */
+	/* html .light {
+	--buttton-text-color: #252525;
+	--button-background-color: #f9d4ff;
+    --button-border-color: #4e005c;
+
+	--input-text-color: #252525;
+	--input-placeholer-text-color: #a7a;
+	--input-background-color: #ffffff;
+	--input-border-color: #4e005c;
+
+	--background-color: #dfdfdf;
+	--icon-color: #4e005c;
 } */
 
 #root{
@@ -35,6 +77,7 @@
 	display: flex;
 	flex-direction: column;
     text-align: center;
+	
 }
 
 .title-2 {
@@ -42,4 +85,5 @@
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 1.4;
+	
 }

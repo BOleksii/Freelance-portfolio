@@ -1,8 +1,9 @@
 .nav{
 	padding: 20px 0;
-	background-color: inherit;
-	border-bottom: 1px solid gold;
+	background-color:  var(--background-color);
+	/* border-bottom: 1px solid gold; */
 	/* color: black; */
+	/* color: var(--background-color); */
 	letter-spacing: normal;
 }
 
@@ -17,7 +18,8 @@
 
 .logo {
 	margin-right: auto;
-	color: chartreuse;
+	/* color: chartreuse; */
+	color: var(--icon-color);
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -38,7 +40,7 @@
 }
 
 .nav-list__link{
-	color: chartreuse;
+	color: var(--link-color);
 	transition: opasity 0.2s ease-in;
 }
 
